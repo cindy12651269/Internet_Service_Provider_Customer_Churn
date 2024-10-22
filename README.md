@@ -128,13 +128,13 @@ We explore pairwise relationships between numerical features to identify signifi
      lower left. Outliers: A few users have higher averages, but they are less common.  
      ![Jointplot_for_Download_Avg_and_Bill_Avg](./Images/Jointplot_for_'Download_Avg'_and_'Bill_Avg'.png)
 
-## 3. Data Cleaning  
+## Data Cleaning  
 Cleaning the dataset to ensure data consistency and improve model performance using the following script:
 - **Handling_Missing_Value.py**: Visualizes distributions of columns with missing values and fills them using **median imputation** for numerical features to maintain data consistency.
 - 
 It helps ensure a consistent and clean dataset, minimizing data-related issues during modeling.
 
-## 4. Feature Engineering  
+## Feature Engineering  
 Creating and transforming features to enhance predictive power using the following scripts:
 
 - **Dropping_Unnecessary_Columns.py**: Identifies and removes redundant or irrelevant features to simplify the dataset and reduce model complexity.
@@ -153,7 +153,7 @@ Creating and transforming features to enhance predictive power using the followi
 
 These steps ensure that the dataset is well-prepared, with transformed and optimized features for improved model performance.
 
-## 5. Model Analysis  
+## Model Analysis  
 Building and evaluating different machine learning models using the following scripts:
 
 - **Split_training_and_test_sets.py**:  Splits the dataset into training, validation, and testing sets using a 70-30 split strategy for train+validation and test sets, and further splits the train+validation set into separate training and validation sets.  
@@ -183,7 +183,7 @@ Building and evaluating different machine learning models using the following sc
 
 Each model is evaluated using metrics such as **accuracy**, **precision**, **recall**, and **F1-score** to assess classification performance and compare results.
 
-## 6. Model Optimization  
+## Model Optimization  
 Optimizing different models to achieve the best performance using the following scripts:
 
 ### Hyperparameter Optimization  
